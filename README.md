@@ -1,3 +1,3 @@
-# terraform-projects
+# terraform-project
 Terraform Linux Academy Projects
 
