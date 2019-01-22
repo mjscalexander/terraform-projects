@@ -10,3 +10,13 @@ cidrs       = {
   rds2     = "10.0.6.0/24"
   rds3     = "10.0.7.0/24"
 }
+localip    = "174.221.142.147/32"
+domain_name = "martinlearnterraform"
+db_instance_class = "db.t2.micro"
+dbname = "superherodb"
+dbuser = "superhero"
+dbpassword = "superheropass"
+elb_healthy_threshold = "2"
+elb_unhealthy_threshold = "2"
+elb_timeout = "3"
+elb_interval = "30"
