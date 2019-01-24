@@ -24,3 +24,39 @@ dev_instance_type = "t2.micro"
 dev_ami = "ami-b73b63a0"
 public_key_path = "/root/.ssh/terrafansible.pub"
 key_name = "terrafansible"
+lc_instance_type = "t2.micro"
+asg_max = "2"
+asg_min = "1"
+asg_hct = "EC2"
+asg_grace = "300"
+asg_cap = "2"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
