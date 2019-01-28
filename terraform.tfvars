@@ -11,7 +11,7 @@ cidrs       = {
   rds3     = "10.0.7.0/24"
 }
 localip    = "174.221.142.147/32" #run "curl canhazip.com" to get ip
-domain_name = "martinlearnterraform"
+domain_name = "learnterraform"
 db_instance_class = "db.t2.micro"
 dbname = "wdprs_db"
 dbuser = "superhero"
@@ -30,6 +30,7 @@ asg_min = "1"
 asg_hct = "EC2"
 asg_grace = "300"
 asg_cap = "2"
+//delegation_set = "N1HDAZB520Q3IV"
 
 
 
