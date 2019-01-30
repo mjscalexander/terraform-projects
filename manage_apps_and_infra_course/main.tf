@@ -1,7 +1,7 @@
 # Download the latest Ghost Image
 
 resource "docker_image" "image_id" {
-  name = "ghost:alpine"
+  name = "ghost:latest"
 }
 
 # Start the container
@@ -12,7 +12,7 @@ resource "docker_container" "container_id" {
 
   ports {
     internal = "2368"
-    external = "8080"
+    external = "80"
   }
 
 }
