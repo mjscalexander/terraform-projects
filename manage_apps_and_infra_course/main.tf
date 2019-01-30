@@ -11,8 +11,8 @@ resource "docker_container" "container_id" {
   image = "${docker_image.image_id.latest}"
 
   ports {
-    internal = 2368
-    external = 80
+    internal = "2368"
+    external = "8080"
   }
 
 }
