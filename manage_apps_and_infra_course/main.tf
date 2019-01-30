@@ -12,7 +12,7 @@ resource "docker_container" "container_id" {
 
   ports {
     internal = "2368"
-    external = "8080"
+    external = "80"
   }
 
 }
