@@ -21,7 +21,7 @@ variable "container_name" {
 
 variable "int_port" {
   description = "internal port for container"
-  type = map
+  type = "map"
   default = {
     dev = "2368"
     prod = "2368"
@@ -30,7 +30,7 @@ variable "int_port" {
 
 variable "ext_port" {
   description = "external port for container"
-  type = map
+  type = "map"
   default = {
     dev = "8080"
     prod = "80"
