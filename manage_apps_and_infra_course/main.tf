@@ -1,6 +1,3 @@
-
-
-
 # Download the latest Ghost Image
 
 resource "docker_image" "image_id" {
@@ -17,14 +14,4 @@ resource "docker_container" "container_id" {
     internal = "${var.int_port}"
     external = "${var.ext_port}"
   }
-}
-
-# Output name and ip address
-
-output "ip address" {
-  value = "${docker_container.container_id.ip_address}"
-}
-
-output "container_name" {
-  value = "${docker_container.container_id.name}"
 }
